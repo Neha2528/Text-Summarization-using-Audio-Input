@@ -22,7 +22,8 @@ This phase focuses on generating a text summary as an output for the input text 
 •	At this point, the data has to be tokenized by breaking it down into words to generate the frequency of each word occurring in the provided data. 
 •	After the list of tokens is generated, iterate through the list and check if the corresponding word is not present in the stop words list and if not, increase its frequency by 1.
 2.2	Sentence Tokenization
-•	Now there is a need to generate scores of each sentence in the data to generate an optimal summary of the given data. For that first tokenize each sentence in the data.
+•	Now there is a need to generate scores of each sentence in the data to generate an optimal summary of the given data. For that first tokenize each
+sentence in the data.
 2.3	Sentence Selection
 •	The next stage is to extract the important key-phrases in the text by implementing a new algorithm through which extracting high frequency words. 
 •	The system uses the extracted keywords to select the important sentence.
@@ -32,4 +33,10 @@ This phase focuses on generating a text summary as an output for the input text 
 2.5	Output
 •	Using the above listed stages the input text is being summarized and the output is display in the form of text which is  in concised form.
 
-
+# Screen Shots
+## Initializing
+![image](https://user-images.githubusercontent.com/64465272/126047103-d6982b82-9952-465a-a3d1-50506b5042cf.png)
+## Input from the user
+![image](https://user-images.githubusercontent.com/64465272/126047105-9b3b42bd-818a-4def-b521-838510c849bc.png)
+## Output
+![image](https://user-images.githubusercontent.com/64465272/126047107-f70c8dba-397b-48eb-b950-9bdeef0b9455.png)
